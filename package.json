@@ -1,0 +1,16 @@
+{
+  "name": "mern_auth",
+  "version": "1.0.0",
+  "description": "MERN stack workout application",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
+    "start" : "node backend/server.js"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "git+https://github.com/Gokul3799/MERN_AUTH"
+  },
+  "author": "Gokul",
+  "license": "ISC"
+}
